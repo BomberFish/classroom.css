@@ -19,13 +19,17 @@
     }
 
     *:not(.gb_Oe,
-    .gb_Qe),
+    .gb_Qe,
+    .gHz6xd),
     :not(.gb_Oe,
-    .gb_Qe):hover,
+    .gb_Qe,
+    .gHz6xd):hover,
     :not(.gb_Oe,
-    .gb_Qe):active,
+    .gb_Qe,
+    .gHz6xd):active,
     :not(.gb_Oe,
-    .gb_Qe):focus {
+    .gb_Qe,
+    .gHz6xd):focus {
         transition: 0.35s cubic-bezier(0.5, 0, 0.3, 1)!important;
     }
 
@@ -1110,8 +1114,6 @@
             transform: translateX(300px) scale(1.5);
         }
     }
-    
-    
 }
 
 @-moz-document domain("ogs.google.com") {
